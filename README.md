@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 👗 closet - Fashion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Closet** is an AI-powered web application designed to redefine how users interact with fashion. From personalized styling to virtual try-ons and sustainable fashion choices, the platform creates a smart, socially connected wardrobe experience.
 
-## Available Scripts
 
-In the project directory, you can run:
+## 📌 Features
 
-### `npm start`
+### 1. 🧑‍🎨 Personalized Style Profile
+- **Comprehensive User Profile:** Collects user data like height, body type, age, skin tone, etc., during onboarding.
+- **Korean Color & Style Analysis:** Recommends seasonal palettes, undertones, and preferred clothing styles.
+- **Virtual Avatar Generator:** Creates a personalized avatar for trying on outfits.
+- **Event-Based Style Calendar:** Suggests outfits for occasions/events using AI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. 🧳 Organized Virtual Closet
+- **Digitized Wardrobe:** Users upload and categorize their clothing items using AI.
+- **Saved Outfits Section:** Easily manage and reuse outfit combinations.
+- **Full Closet View:** View entire wardrobe by category.
+- **Filtered Search:** Quickly find outfits using tags like “formal,” “summer,” or “blue.”
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. 🤖 AI-Powered Outfit Recommendations
+- **Swipe-to-Style:** Discover trend-based outfits via an IG Reels–like experience.
+- **Personalized Suggestions:** Recommendations based on user profile, outfit history, and preferences.
+- **Sustainability Chatbot:** Offers creative restyling and sustainable outfit tips.
+- **Save to Closet:** Save favorite AI-suggested outfits.
 
-### `npm test`
+### 4. 🪞 Virtual Try-On
+- **AR & AI Outfit Visualization:** Try on clothes with augmented reality or AI-generated avatars.
+- **Realistic Fit & Body Shape Styling:** Smart try-on considers body proportions.
+- **Instant Outfit Swapping:** Change clothes instantly in try-on mode.
+- **Outfit Planning Dashboard:** Schedule and organize weekly outfits to reduce fashion waste.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. 🌱 Social Societies & Sustainability
+- **Fashion Communities:** Share looks, follow influencers, and join styling societies.
+- **Eco-Friendly Badges & Rewards:** Users earn rewards for eco-conscious fashion practices.
+- **Thrifting & Upcycling Ideas:** Promote second-hand fashion and DIY swaps.
+- **AI-Powered Privacy:** Secure recommendations and data with encrypted authentication.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Frontend:** React.js, HTML5, CSS3
+- **Backend:** Node.js, Express.js
+- **Database:** MySQL
+- **Other:** TensorFlow.js (for style predictions), AR.js / 8thWall (for virtual try-on), Firebase Auth (optional)
