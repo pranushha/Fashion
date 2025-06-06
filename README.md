@@ -1,4 +1,4 @@
-# 👗 closet - Fashion
+# 👗 Closet - Fashion
 
 **Closet** is an AI-powered web application designed to redefine how users interact with fashion. From personalized styling to virtual try-ons and sustainable fashion choices, the platform creates a smart, socially connected wardrobe experience.
 
